@@ -16,6 +16,6 @@ module "vm" {
 module "vnet" {
     source = "./modules/vnet"
     location = "${var.location}"
-    resource-group-name = "${var.resource-group-name}"
+    resource-group-name = "${var.resource-group-name}-2"
     vnet-name = "${var.vnet-name}"
 }
