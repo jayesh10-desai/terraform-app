@@ -5,6 +5,8 @@ module "s3_bucket" {
 
   block_public_acls = true
 
+  force_destroy = true
+
   attach_policy = true
 
   policy = data.aws_iam_policy_document.bucket_policy.json

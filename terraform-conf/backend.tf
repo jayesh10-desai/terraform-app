@@ -3,5 +3,4 @@ terraform {
 }
 
 provider "aws" {
-    profile = "chetan"
 }
